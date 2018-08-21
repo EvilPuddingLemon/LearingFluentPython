@@ -1,0 +1,10 @@
+# all和any的演示
+print(all([1, 2, 3]))
+print(all([1, 0, 3]))
+print(all([.01, .5, .1]))
+print(all([-1, 1, 1]))
+print(all([]))
+print(any([1, 2, 3]))
+print(any([1, 0, 3]))
+print(any([0, 0.0, .00]))
+print(any([]))
